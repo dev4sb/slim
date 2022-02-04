@@ -2,7 +2,7 @@ $(document).ready(function(){
    view_record();
    get_record();
    update_record();  
-
+  
   
    $("#form-signup").validate({
      rules:{
