@@ -1,8 +1,11 @@
+
+
+
+
 $(document).ready(function(){
    view_record();
    get_record();
-   update_record();  
-  
+   update_record();
   
    $("#form-signup").validate({
      rules:{
@@ -94,9 +97,6 @@ return JSON.stringify(data);
 }
 
   
-    
-
-
    $(document).on('click', '.delete', function(){  
         var id=$(this).data("id3");  
         if(confirm("Are you sure you want to delete this?"))  
@@ -144,8 +144,6 @@ $.ajax({
  }
 })
 }
-
-
 
 $(document).on('click','.pagination_link',function(){
 var page = $(this).attr('id');
